@@ -40,3 +40,15 @@ IN (SELECT MAX(salary) FROM salaries));
 SELECT first_name, last_name
 FROM employees
 WHERE emp_no = (SELECT emp_no FROM salaries WHERE salary = (SELECT MAX(salary) FROM salaries));
+
+# what is the most common birthday in the company? least common?
+
+
+-- what is the average salary of managers by department?
+
+
+-- how many employees currently work in each department?
+
+-- what is the average salary for each department?
+
+-- what was the average salary in the 80s? By department?
